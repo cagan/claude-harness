@@ -32,6 +32,21 @@
           }
         ]
       }
+    ],
+    "Agent": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "preToolExecution",
+            "command": "bash $PLUGIN_DIR/hooks/subagent-logger.sh"
+          },
+          {
+            "type": "postToolExecution",
+            "command": "bash $PLUGIN_DIR/hooks/subagent-logger.sh"
+          }
+        ]
+      }
     ]
   }
 }
