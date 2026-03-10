@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "claude-harness",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "cagan/claude-harness"
+      },
       "description": "Generic Claude Code development harness — TDD pipeline, subagents, quality gates, and deploy workflow.",
       "version": "1.0.0"
     }
