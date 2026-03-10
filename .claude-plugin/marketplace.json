@@ -1,0 +1,14 @@
+{
+  "name": "claude-harness",
+  "owner": {
+    "name": "Cagan"
+  },
+  "plugins": [
+    {
+      "name": "claude-harness",
+      "source": ".",
+      "description": "Generic Claude Code development harness — TDD pipeline, subagents, quality gates, and deploy workflow.",
+      "version": "1.0.0"
+    }
+  ]
+}
